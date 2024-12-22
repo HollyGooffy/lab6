@@ -19,27 +19,30 @@ public class Main {
         /* Задание 2.2 */
         System.out.println("Задание 2.2, Default ");
         Example2 example2 = new Example2();
-        System.out.println("default " + example2.getDefaultField());
+        System.out.println("аннотация с default " + example2.getDefaultField());
 
         /* Задание 2.3 */
         System.out.println("Задание 2.3, ToString ");
         Example3 example3 = new Example3();
-        System.out.println("toString " + example3.getExampleField());
+        System.out.println("аннотация с toString " + example3.getExampleField());
 
         /* Задание 2.4 */
         System.out.println("Задание 2.4, Validate ");
-        Example4 example4 = new Example4("Tigr", "Вася");
+        Example4 example4 = new Example4("Тигр", "Вася");
+        System.out.println("Аннотация с Validate ");
         System.out.println("animal: " + example4.getAnimal());
         System.out.println("name: " + example4.getName());
 
         /* Задание 2.5 */
         System.out.println("Задание 2.5, Two");
         Example5 example5 = new Example5("first", 2);
+        System.out.println("Аннотация с Two");
         System.out.println("first: " + example5.getFirst());
         System.out.println("second: " + example5.getSecond());
 
         /* Задание 2.6 */
-        System.out.println("Задание 2.6");
+        System.out.println("Задание 2.6 , Cache");
+        System.out.println("Аннотация с Cache");
         Example6 example6 = new Example6("First", 2, 2.4);
         System.out.println("first: " + example6.getFirst());
         System.out.println("second: " + example6.getSecond());
