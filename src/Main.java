@@ -24,7 +24,7 @@ public class Main {
         /* Задание 2.3 */
         System.out.println("Задание 2.3, ToString ");
         Example3 example3 = new Example3();
-        System.out.println("аннотация с toString " + example3.getExampleField());
+        System.out.println(example3.toString());
 
         /* Задание 2.4 */
         System.out.println("Задание 2.4, Validate ");

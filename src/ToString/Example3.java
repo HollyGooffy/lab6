@@ -15,4 +15,9 @@ public class Example3 {
     public String getExampleField() {
         return exampleField;
     }
+
+    @Override
+    public String toString() {
+        return "аннотация с ToString: " + exampleField;
+    }
 }
